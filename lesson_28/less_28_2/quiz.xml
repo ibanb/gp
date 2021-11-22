@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<questions>
+  <question minutes="5" points="3">
+    <text text="Сколько байт в килобайте?"></text>
+    <variants>
+      <variant>1000</variant>
+      <variant>2048</variant>
+      <variant right="true">1024</variant>
+      <variant>512</variant>
+    </variants>
+  </question>
+  <question minutes="1" points="2">
+    <text text="В каком году Гагарин полетел в космос?"></text>
+    <variants>
+      <variant right="true">1961</variant>
+      <variant>1809</variant>
+      <variant>2019</variant>
+      <variant>4567</variant>
+    </variants>
+  </question>
+  <question minutes="2" points="3">
+    <text text="Сколько дней в високосном году?"></text>
+    <variants>
+      <variant right="true">366</variant>
+      <variant>365</variant>
+      <variant>364</variant>
+      <variant>367</variant>
+    </variants>
+  </question>
+</questions>
