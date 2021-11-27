@@ -31,10 +31,14 @@ class Collection
         @types = types
     end
 
-    def generate_set
-        for type in @types 
-            for obj in collection
-                if obj.type == type
+    def generate_set(type, input)
+        box_type = []
+             for obj in @collection
+                 if obj.type == type && input == obj.range.to_i
+                    box_type << obj.name
+                 end
+             end
+        return box_type
 
 
 

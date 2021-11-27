@@ -3,8 +3,16 @@ require_relative 'lib/cloth'
 
 collection = Collection.create_collection
 
-puts collection.collection
 collection.to_types
-puts collection.types
+result = []
+collection.types.each do |type|
+    set = collection.generate_set(type, 14)
+    result << set.sample
+end
+
+puts result
+
+
+
 
 
