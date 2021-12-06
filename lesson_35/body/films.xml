@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMWEATHER>
+    <REPORT type="frc3">
+        <TOWN index="37" sname="%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0" latitude="56" longitude="38">
+            <FORECAST day="06" month="12" year="2021" hour="21" tod="3" predict="0" weekday="2">
+                <PHENOMENA cloudiness="3" precipitation="10" rpower="0" spower="0"/>
+                <PRESSURE max="766" min="765"/>
+                <TEMPERATURE max="-3" min="-3"/>
+                <WIND min="3" max="4" direction="4"/>
+                <RELWET max="71" min="68"/>
+                <HEAT min="-7" max="-7"/>
+            </FORECAST>
+            <FORECAST day="07" month="12" year="2021" hour="03" tod="0" predict="0" weekday="3">
+                <PHENOMENA cloudiness="3" precipitation="10" rpower="0" spower="0"/>
+                <PRESSURE max="765" min="763"/>
+                <TEMPERATURE max="-2" min="-3"/>
+                <WIND min="3" max="5" direction="4"/>
+                <RELWET max="78" min="70"/>
+                <HEAT min="-7" max="-7"/>
+            </FORECAST>
+            <FORECAST day="07" month="12" year="2021" hour="09" tod="1" predict="0" weekday="3">
+                <PHENOMENA cloudiness="2" precipitation="6" rpower="0" spower="0"/>
+                <PRESSURE max="762" min="760"/>
+                <TEMPERATURE max="-1" min="-2"/>
+                <WIND min="6" max="6" direction="4"/>
+                <RELWET max="80" min="78"/>
+                <HEAT min="-7" max="-7"/>
+            </FORECAST>
+            <FORECAST day="07" month="12" year="2021" hour="15" tod="2" predict="0" weekday="3">
+                <PHENOMENA cloudiness="2" precipitation="6" rpower="0" spower="0"/>
+                <PRESSURE max="760" min="758"/>
+                <TEMPERATURE max="1" min="-0"/>
+                <WIND min="4" max="6" direction="4"/>
+                <RELWET max="80" min="79"/>
+                <HEAT min="-6" max="-6"/>
+            </FORECAST>
+        </TOWN>
+    </REPORT>
+</MMWEATHER>
